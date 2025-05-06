@@ -2,7 +2,7 @@
 //4 - Desenvolva um programa que calcule a média de uma sequência de números informados
 //pelo usuário. O programa deve continuar solicitando números até que o usuário indique que
 //não deseja mais continuar. Ao final, exiba a média dos valores digitados.
-//Nome aluno: Laís Zanqueta
+//Nome aluno: Laís Zanqueuta
 
 let teclado = require('prompt-sync')();
 let soma = 0;
@@ -18,7 +18,7 @@ while (continuar === 's' || continuar === 'S') {
 
 if (contador > 0) {
     let media = soma / contador;
-    console.log(`A média dos ${contador} números digitados é: ${media.toFixed(2)}`);
+    console.log(`A média dos ${contador} números digitados é: ${2}`);
 } else {
     console.log("Nenhum número foi digitado.");
 }
