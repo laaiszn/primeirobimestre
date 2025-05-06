@@ -1,3 +1,5 @@
+// Nome: Laís Zanqueta
+
 let teclado= require(`prompt-sync`)();
 
 console.log("Escolha um modelo de carro: ");
